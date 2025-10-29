@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>NEW YORK TIMES </title>
+<body>
+<h1 align="center">NEW YORK TIMES </h1>
+<h3 align="center">News Based on sports</h3>
+<!--Navigation-->
+<p align ="center">
+<nav="#home">Home</nav>
+<nav="#edit">Edit</edit>
+<nav="#overview">Overview</nav>
+</p>
+<hr>
+<!--image-->
+<img src="C:\Users\ANSHIKA\Pictures\Screenshots\Screenshot 2025-10-27 214018.png" height="100" width="300">
+<p>Cricket News</p>
+<!--Video-->
+<video src="C:\Users\ANSHIKA\Downloads\65390-514139029_tiny.mp4" video type=./mp4 height="100" width="200"></video>
+<p>Based on the last events</p>
+<!--Audio-->
+<audio src="C:\Users\ANSHIKA\Downloads\cascade-breathe-future-garage-412839.mp3" audio type= .mp3 ></audio>
+<!--Youtube-->
+<iframe="www.youtube.com" align ="center" full screen></iframe>
+<p><b> All the news content </b></p> 
+<hr>
+<a href="C:\Users\ANSHIKA\Downloads\cascade-breathe-future-garage-412839.mp3">CLICK ON THE LINK</a>
+<hr>
+</body>
+</html>
