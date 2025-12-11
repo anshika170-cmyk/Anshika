@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Product Grid</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        .product-grid {
+            display: grid;
+            gap: 20px;
+            padding: 20px;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Tablet (2 columns) */
+        @media (max-width: 900px) {
+            .product-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Mobile (1 column) */
+        @media (max-width: 600px) {
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Responsive Product Grid</h1>
+
+<div class="product-grid">
+    <div class="product">
+        <img src="p1.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p>High-quality item</p>
+        <p>₹2099</p>
+    </div>
+
+    <div class="product">
+        <img src="p2.jpg" alt="Product 2">
+        <h3>Product 2</h3>
+        <p>Durable & stylish</p>
+        <p>₹799</p>
+    </div>
+
+    <div class="product">
+        <img src="p3.jpg" alt="Product 3">
+        <h3>Product 3</h3>
+        <p>Lightweight & comfy</p>
+        <p>₹1299</p>
+    </div>
+
+    <div class="product">
+        <img src="p4.jpg" alt="Product 4">
+        <h3>Product 4</h3>
+        <p>Trendy design</p>
+        <p>₹2599</p>
+    </div>
+</div>
+
+</body>
+</html>
