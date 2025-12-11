@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar container */
+        .navbar {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;   /* Makes responsive */
+        }
+
+        /* Logo */
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Menu styles */
+        .menu, .right-menu {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Responsive fix for small screens */
+        @media (max-width: 600px) {
+            .menu, .right-menu {
+                flex-direction: column;
+                text-align: center;
+                width: 100%;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <p class="logo">ShopEase</p>
+
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <ul class="right-menu">
+            <li><a href="#">Cart 🛒</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </div>
+
+    <h3 style="font-size:20px;">Welcome to ShopEase!</h3>
+    <p>Your one-stop destination for all shopping needs.</p>
+
+</body>
+</html>
